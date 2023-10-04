@@ -1,0 +1,294 @@
+body {
+  background-color: rgb(160, 69, 8);
+  margin-top: 3rem;
+ 
+}
+.body-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: rgb(15, 15, 15);
+  height: 44rem;
+  width: 22rem;
+  border-radius: 30px;
+}
+
+
+.num0 {
+  padding: 18px;
+  width: 5rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  cursor: pointer;
+  padding-right: 8rem;
+  margin-left: 1rem;
+  background-color: rgb(54, 53, 53);
+  border: none;
+  color: #fff;
+}
+
+.numpoint {
+ height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 30px;
+  border-radius: 25rem;
+  cursor: pointer;
+  background-color: rgb(54, 53, 53);
+  border: none;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.equalto {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 30px;
+  border-radius: 25rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  background-color: rgb(223, 162, 8);
+  color: #fff;
+  border: none;
+  margin-top: 12px;
+}
+
+
+
+.num1 {
+ height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+
+}
+.num2 {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+
+}
+
+.num3 {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  border: none;
+  font-weight: 900;
+}
+.plus-sign {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 30px;
+  border-radius: 25rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  border: none;
+  background-color: rgb(223, 162, 8);
+  margin-top: 12px;
+}
+
+.num4 {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  border: none;
+  font-weight: 900;
+
+}
+.num5 {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+}
+.num6 {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 900;
+ 
+  border: none;
+}
+.minus-sign {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 30px;
+  border-radius: 25rem;
+  background-color: rgb(223, 162, 8);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  border: none;
+  margin-top: 12px;
+}
+
+.num7 {
+  height: 4rem;
+  width: 4rem;
+  font-family: Arial;
+  font-size: 27px;
+  border-radius: 25rem;
+  background-color: rgb(54, 53, 53);
+  cursor: pointer;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+}
+
+  .num8 {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(54, 53, 53);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+  }
+  .num9 {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(54, 53, 53);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+    margin-top: 12px;
+  }
+  .times-sign {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(223, 162, 8);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+  }
+
+  .ac-button {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(54, 53, 53);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+  }
+  .plus-minus {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(54, 53, 53);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+  }
+  .percent {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(54, 53, 53);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+  }
+  .division-sign {
+    height: 4rem;
+    width: 4rem;
+    font-family: Arial;
+    font-size: 27px;
+    border-radius: 25rem;
+    background-color: rgb(223, 162, 8);
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 900;
+  }
+
+  p {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 900;
+    margin-top: 13rem;
+    font-family: Arial;
+    text-align: end;
+    margin-right: 2rem;
+  }
+  .screen0 {
+    height: 7rem;
+  }

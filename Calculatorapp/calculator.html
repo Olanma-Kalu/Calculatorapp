@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+ <div class="body-container">
+  
+-
+ 
+
+    <div class="calculator">
+
+        <div class="screen0">
+         <p id="result">0</p>
+        </div>
+        <div>
+          <button class="ac-button" onclick="allClear()">AC</button>
+          <button data-id="+" class="plus-minus" onclick="appendNumber('+/-')">+/-</button>
+          <button class="percent" onclick="appendNumber('%')">%</button>
+          <button data-id="/" class="division-sign"onclick="divide()">/</button>
+        </div>
+        <div>
+          <button data-id="7" class="num7" onclick="appendNumber('7')">7</button>
+          <button data-id="8" class="num8" onclick="appendNumber('8')">8</button>
+          <button data-id="9" class="num9" onclick="appendNumber('9')">9</button>
+          <button class="times-sign" onclick="multiply()">x</button>
+        </div>
+        <div>
+         <button class="num4" onclick="appendNumber('4')">4</button>
+         <button class="num5" onclick="appendNumber('5')">5</button>
+         <button class="num6" onclick="appendNumber('6')">6</button>
+         <button class="minus-sign" onclick="subtract()">-</button>
+        </div>
+      <div>
+        <button class="num1" onclick="appendNumber('1')">1</button>
+        <button class="num2" onclick="appendNumber('2')">2</button>
+        <button class="num3" onclick="appendNumber('3')">3</button>
+        <button class="plus-sign" onclick="add()">+</button>
+      </div>
+
+      <div class="firstrow-num">
+        <button class="num0" onclick="appendNumber('0')">0</button>
+        <button class="numpoint" onclick="appendNumber('.')">.</button>
+        <button class="equalto" onclick="calculate()">=</button>
+      </div>
+     
+     
+
+
+   
+    </div>
+  </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
